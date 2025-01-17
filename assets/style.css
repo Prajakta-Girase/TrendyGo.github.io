@@ -68,9 +68,14 @@ nav #navcontent li a{
 	font-weight: bolder;
 	 justify-content: space-evenly;
 }
+
+
  nav #navcontent a:hover{
       color: #b30059;
        
+ }
+ nav .checkbtn{
+  visibility: hidden;
  }
 nav #navcontent a:: after{
 	width: 0;
@@ -101,6 +106,7 @@ nav #navcontent a:: after{
       border-bottom: 1px solid #ff0066;
       transition: transform 0.6s;
    }
+  
 /*Login CSS*/
 /* Full-width input fields */
 #id02 input[type=text], input[type=password] {
@@ -248,7 +254,20 @@ nav #navcontent a:: after{
   	       background-position: 0 0;
   	       -webkit-animation: back 20s liner infinite alternate;
 }
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 680px) {
+  .shop_by_category {
+    flex-direction: row;
+  }
+  .shop_by_category .filters #datafilter{
+    margin: 2px;
+    margin-top: 1px;
+    padding: 10px;
+    width: 50%;
+    height: 30px;
 
+  }
+}
 
 /**/
   
@@ -259,7 +278,45 @@ nav #navcontent a:: after{
   }
 
     /*====Card css starts here===*/
+/* Responsive layout for Grab the deals- when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .shop_by_category .container{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 
+  }
+  .shop_by_category .container .row{
+    padding: 0.1rem;
+     }
+  .shop_by_category .container .row .col-md-4{
+    width:90%;
+    height: 90%;
+    padding: 18px;
+      }
+.shop_by_category .container #img1,#img2,#img3{
+    padding: 30px;
+    padding-top: 0.2rem;
+    padding-left: 0rem;
+    padding-right: 25px;
+    width: 100%;
+    height: 200px;
+    margin-left: 0;
+    margin: 6px;
+    margin-bottom: 1px;
+    align-items: center;
+
+  }
+  .shop_by_category .container .card{
+    width: 80%;
+    height: 240px;
+  }
+  
+  
+}
+
+
+/*-------------------------*/
 .shop_by_category  .row{
 	justify-content: center;
   	display: flex;
@@ -463,6 +520,35 @@ border: none;
  /*==== Shop by Category section css starts here===*/
 
   /* section collection Products title css*/
+
+/* Responsive layout for "shop by category"- when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 680px) {
+  .section_collection .container{
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+   padding: 2px;
+  margin-top: 0 rem;
+  text-align: left;
+
+    }
+  .section_collection .title span{
+   width: 30%;
+    height: 100%; 
+text-align: left;
+padding: 0;
+
+  }
+  .section_collection .row #productimg{
+   width: 50%;
+    height: 50%; 
+  }
+  .section_collection #productimg:hover{
+    width: ;
+}
+  }
+
+/*----------------------------*/
   .section_collection{
   	margin: 0;
   	padding: 0;
@@ -603,6 +689,37 @@ border: none;
 }
 
 /*Features section css starts here*/
+ 
+/* Responsive layout for "Our features"- when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 680px) {
+  .feature{
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+    margin-top: 500px;
+  }
+  .feature .section_title h1{
+   margin-left: 10px;
+   width: 100%;
+    height: 100%;
+  }
+  .feature .row{
+   width: 100%;
+    height: 100%;
+    padding: 1px;
+  }
+  .feature .row .col{
+   width: 100%;
+    height: 50%;
+    padding: 6px;
+  }
+  .feature .row .col p{
+   padding: 1px;
+   font-size: 7px;
+  }
+  }
+
+/*------------------*/
   .feature{
   	margin-top: 750px;
   }
@@ -660,6 +777,49 @@ border: none;
   }
 
   /*Footer section css start here*/
+  
+/* Responsive layout for "Our features"- when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 680px) {
+  .footer_section footer .container-fluid{
+    flex-direction: column;
+    background-size: 100%;
+   width: 100%;
+   height: 100%;
+   padding: 1px;
+
+  }
+  .footer_section .footer_title a{
+   width: 10px;
+   height: 10px;
+  }
+  .footer_section #para{
+   font-size: 10px;
+  }
+  .footer_section .container-fluid .row #fcontent{
+    margin-left: 1px;
+    font-size: 8px;
+   margin-top: 1px;
+   padding: 7px;
+align-items: center;
+
+     }
+     .footer_section .container-fluid .row #fcontent h3{
+    margin-left: 6px;
+    font-size: 13px;
+   margin-top: 1px;
+align-items: center;
+     }
+     .footer_section .container-fluid .row #fcontent .footer_links li{
+    margin-left: 1px;
+    font-size: 8px;
+   margin-top: 1px;
+    padding: 1px;
+    padding-right: 8px;
+     }
+  }
+
+
+/*------------------------*/
   .footer_section{
   	margin-top: 200px;  /*home page footer*/
   }
