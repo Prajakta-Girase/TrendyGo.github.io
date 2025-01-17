@@ -1,0 +1,908 @@
+<!--index.html page-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- style.css For Custom Styling -->
+<link rel="stylesheet" href="assets/style.css">
+
+	<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,
+shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--boxicons js into your webpage-->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDG
+MN5t9UJ0Z" crossorigin="anonymous">
+
+<!--boxicons font into your webpage-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!-- fontawesome cdn For Icons -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEys
+h0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+crossorigin="anonymous" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+
+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7ni
+u735Sk7lN" crossorigin="anonymous"></script>
+
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOM
+MV+rV" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+     </script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--below link represent google font family-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gideon Roman">
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<style >
+  .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img{
+      width: 90%;
+      height: 460px;
+      margin: auto;
+       background: floralwhite;
+
+    }
+      /*carousel container*/
+    .container{
+      width: 100%;
+      height: 460px;
+      margin: auto;
+    }
+   .header_carousel {
+      width: 90%;
+      height: 460px;
+      margin: auto;
+       background: floralwhite;
+          }
+ /*sign up form css*/
+/* Full-width input fields */
+#id01 input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+#id01 input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+#id01 button {
+ 
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#id01 button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #40bf40;
+}
+/* Float cancel and signup buttons and add an equal width */
+ .cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+#id01 .container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: linear-gradient(to bottom, #cccc00 0%, #ffffff 100%);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+ .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+#id01 hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+#id01 .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#id01 .close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.navbar.checkbtn {
+    font-size: 30px;
+    color: white;
+   
+    display: none;
+  }
+  
+  .navbar #check {
+    display: none;
+  }
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (min-width: 500px) {
+  .cancelbtn, .signupbtn {
+      height: 100%;
+      width: 100%;
+    display: block;
+    flex-direction: column-reverse;
+  } 
+}
+@media screen and (max-width: 950px){
+nav .search-container .form-control{
+   height: 20%;
+  width: 100%;
+}
+nav .search-container button {
+   margin-top: 2px;
+
+ height: 20%;
+  width: 100%;
+}
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen  (max-width: 570px) {
+  section {   
+    flex-direction: column;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  nav #navcontent a{
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px){
+nav .container-fluid .navbar-brand img{
+object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+nav .container-fluid{
+  width: 100%;
+  height: 5%;
+  margin-bottom: 1px;
+  
+}
+nav .container-fluid #glyphi{
+  margin: 1px;
+  height: 10%;
+}{
+  width: 100%;
+  height: 10%;
+  margin-bottom: 1px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+}
+</style>
+	<title>E-Commerce</title>
+</head>
+
+<body id="top">
+	<!--if we want to use shortcut to define any element like <div class="container-fluid"></div>
+		then just simply type= div.container-fluid and press Tab button of your laptop-->
+
+
+	<!-- ==============header menu section starts here============== -->
+<!--<nav class="navbar navbar-expand-sm bg-primary navbar-dark navbar-inverse">-->
+  <nav class="navbar fixed-top sticky-top navbar-expand-sm" id="navigation-bar">
+      <div class="container-fluid">
+    <div class="navbar-header" >
+      <a class="navbar-brand" href="#">
+      	<!--<img src="https://api.sherbert.cimpress.io/v2/assets/bSQhSJCstNpgebdGv8iyP~200/webPreview?signature=7cf4434ef1fe8d00979df6dad530ed2e941b3731" class="rounded-pill" width="90px">-->
+      	<img src="assets/images/trendygo1.png" class="img img-fluid"
+alt="logo" class="d-inline-block align-text-top">
+      	
+      </a> 
+      <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+    </div>
+
+    <div class="navbar">
+      
+    <ul class="nav navbar-nav collapse navbar-collapse  justify-content-center" id="navcontent">
+      <li><a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>HOME</a>
+      </li>
+      <li><a href="product.html"><i class="fa fa-shopping-bag"></i>PRODUCT</a>
+      </li>
+      <li><a href="category.html"><i class="fa fa-search-plus"></i>CATEGORY</a>
+      </li>
+      <li><a href="about_us.html"><i class="fa fa-info-circle"></i>ABOUTUS</a></li>
+      <li><a href="contact_us.html"><i class="fa fa-fw fa-envelope"></i>CONTACTUS</a></li>
+      
+    </ul>
+    <div class="search-container">
+    <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+  </form></div>
+    <ul class="nav navbar-nav navbar-right" id="glyphi">
+      <li onclick="document.getElementById('id01').style.display='block'"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> 2</a></li>
+      </ul>
+      
+</div>
+</div>
+</nav>
+
+<!-- ==============SignUp code starts here============== -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Re-enter Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- ==============Login code starts here============== -->
+
+  <div id="id02" class="modal1">
+  
+  <form class="modal1-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close">&times;</span>
+      <img src="assets/images/User_Avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw1"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">Cancel</button>
+      <span class="psw1">Forgot <a href="#">password?</a></span>
+      </div>
+      </form>
+</div>
+
+ <!-- ============== carousel section starts here============== -->
+
+<section class="header_carousel" id="header_carousel">
+	<div class="container-fluid"> <!--here container-fluid class is used for occupy full width of the page-->
+	 <div id="mycarousel" class="carousel slide" data-ride="carousel">
+	 <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="mycarousel" data-slide-to="3"></li>
+        <li data-target="mycarousel" data-slide-to="4"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+
+    <!--Carousel slide image 1-->
+    
+      <img src="assets/images/post1.png" alt="poster" style="width: 80%" height="400px">
+      </div>
+       
+
+      <!--Carousel slide image 2-->
+      <div class="item">
+      <img src="assets/images/skincare.png"  alt="shop" style="width: 80%" height="400px"><br/>
+       
+          <div class="carousel-caption">
+          <p style="color: white; font-size: 20px; font-style: italic; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" >Just</p>
+          <p style="color: white; font-size: 15px; font-style: italic; text-shadow: 6px 6px 6px black;">For YOU !!</p>
+        </div>
+   </div>
+
+    <!--<div class="item">
+      <img src="C:\Users\Admin\Desktop\shopp.jpg"  alt="shop1" style="width: 80%" height="400px">
+    </div>-->
+
+  
+
+  <!--Carousel slide image 3-->  
+    <div class="item">
+      <img src="assets/images/shopping.png" alt="indo" style="width: 80%" height="400px">
+     
+    </div>
+
+  <!--Carousel slide image 4-->
+    <div class="item">
+      <img src="assets/images/cardimg2.png" alt="shopweb" style="width: 80%" height="400px">
+      <!--<div class="carousel-caption">
+          <p id="cp1" style="color: black; font-size: 14px; font-style: italic; text-shadow: 0 0 black, 0 1px black, 1px 0 black, 0 -1px red" >GIANT BRANDS!</p>
+          <p id="cp2" style="color: white; font-size: 18px; font-style: italic; text-shadow: 1px 1px 2px black, 0 0 28px red, 0 0.8px 7px darkblue;">GIANT DEALS!</p>
+          <p id="cp3" style="color: black; font-size: 20px; font-style: italic; text-shadow: -1px 0 3px #FF0000, 0 0 5px #0000FF;">GIANT SAVINGS!</p>
+        </div>-->
+
+      </div>
+     </div>
+
+  <!--<a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev" role="button">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next" role="button">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+  </a>-->
+
+</div></div>
+</section>
+<!-- ============== carousel section ends here============== -->
+
+
+<!-- ==============latest products(Grab the deals) starts here============== -->
+<section class="shop_by_category py-5 my-5" id="shop_by_category">
+<div class="container">
+<div class="section_title text-center mb-5">
+<h1 class="text-capitalize" style="margin-top: 100px;">Grab the Deals !</h1>
+</div>
+
+<div class="filters d-flex">
+    <div data-filter="Jewellery" id="datafilter">Jewellery</div>
+    <div data-filter="Accessories" id="datafilter">Accessories</div>
+    <div data-filter="Dresses" id="datafilter">Dresses</div>
+    <div data-filter="Footwear" id="datafilter">Footwear</div>
+  </div>
+<div class="row">
+<div class="col-md-4 col-12 cell medium-3" id="image">
+<div class="card text-center">
+<a href="category.html" style="text-decoration: none;" id="card">
+<img class="card-img img img-fluid" src="assets/images/Border-Grid.png"
+alt="Card image" id="img1">
+<div class="product-info text-center">
+  <h3><b>** Top Rated Picks **</b></h3>
+  <h6 style="margin-right: 20px; font-size:10px"><b>Your Favourites are BACK !</b></h6>
+</div>
+<div style="padding-top: 10px;">
+  <button class="btn" type="button">SHOP NOW</button>
+</div>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-12 mt-small-5 mb-small-5" id="cardimg">
+<div class="card text-center">
+<a href="category.html" style="text-decoration: none;">
+<img class="card-img img img-fluid" src="assets/images/travel.png"
+alt="Card image" id="img2">
+<div class="product-info">
+  <h3><b>Destination Calling..</b>.</h3>
+  <h6><b>Make your perfect hoilday style..</b></h6>
+</div>
+</a>
+<div style="padding-top: 10px;">
+  <button  class="btn" type="button">SHOP NOW</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-12" id="cardimg">
+<div class="card text-center">
+<a href="category.html" style="text-decoration: none;">
+<img class="card-img img img-fluid" src="assets/images/gift.jpg"
+alt="Card image" id="img3" />
+<div class="product-info" justify-cotent-center>
+  <h3 style="padding-top: -1px;"><b>Gifts and Combos</b></h3>
+  <h6 style="padding: 1px;"><b>Surprise Your Loved Ones With amazing Gift sets and combos</b></h6>
+</div>
+<div style="padding-top: 2px;">
+  <button  class="btn" type="button">SHOP NOW</button>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==============shop by category ends here============== -->
+
+
+<!-- ==============latest products starts here============== -->
+<!--===== Actual Shop by category section starts here====-->
+<section class="section_collection">
+  <div class="container px-4">
+  <div class="title" style="margin-top: 100px;">
+    <span> SHOP BY CATERORY</span>
+    <h2><b>Our Top Collection</b></h2>
+  </div>
+  
+  <div class="row mb-5 gx-3">
+<div class="col-md-4 col-12 p-3" id="productimg">
+<div class="single_product shadow text-center p-1">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail1.html"><img src="assets/images/greenhoodie.png"
+class="img img-fluid" alt="" width="170px" height="170px" style="padding-top: 3px;"></a>
+
+</div>
+<div class="new_product">
+    <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+</div>
+<h4><a href="product_detail1.html">Men's casual wear</a></h4>
+<p><a href="product_detail1.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail2.html"><img src="assets/images/wdress.png"
+class="img img-fluid" alt="" width="170px" height="170px"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+</div>
+<h4><a href="product_detail2.html">Women's western wear</a></h4>
+<p><a href="product_detail2.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail3.html"><img src="assets/images/womenpurse.png"
+class="img img-fluid" alt="" width="350px" height="170px" style="padding-right: 100px"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h4><a href="product_detail3.html">Handbags & Purse</a></h4>
+<p><a href="product_detail3.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail4.html"><img src="assets/images/Beauty.png"
+class="img img-fluid" alt="" width="250px" height="170px" style="padding-top: 3px;"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h4><a href="product_detail4.html">Beauty & Skincare</a></h4>
+<p><a href="product_detail4.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+<br/><br/>
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+  <div class="product_img">
+<a href="product_detail5.html"><img src="assets/images/sungoggles.png"
+class="img img-fluid" alt="" width="255px" height="170px" style="padding-right: 30px;"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star"></i>
+</div>
+<h4><a href="product_detail5.html">Eyewear</a></h4>
+<p><a href="product_detail5.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail6.html"><img src="assets/images/headphone.png"
+class="img img-fluid" alt="" width="240px" height="170px" style="padding-top: 3px;"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h4><a href="product_detail6.html">Headphones & Speakers</a></h4>
+<p><a href="product_detail6.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail7.html"><img src="assets/images/footwear.png"
+class="img img-fluid" alt="" width="200px" height="170px"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+</div>
+<h4><a href="product_detail7.html">Footwear</a></h4>
+<p><a href="product_detail7.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-12" id="productimg">
+<div class="single_product shadow text-center p-1">
+  <div class="icon d-flex">
+  <i class="bx bxs-heart" ></i>
+  </div>
+<div class="product_img">
+<a href="product_detail8.html"><img src="assets/images/watch.png"
+class="img img-fluid" alt="" width="200px" height="170px" style="padding-top: 0px;"></a>
+<div class="new_product">
+<span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="rating">
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star checked"></i>
+<i class="fa fa-star"></i>
+</div>
+<h4><a href="product_detail8.html">Casual & Smart Watches</a></h4>
+<p><a href="product_detail8.html"><button class="button">SHOP NOW</button></a></p>
+</div>
+</div>
+</div>
+
+  <!-- <div ><i class='bx bxs-heart bx-border-circle'></i>
+// Boxicons web component 
+<box-icon name='heart' border='circle'></box-icon></div> -->
+</div>
+</div> 
+</section>
+<!-- ==============products ends here============== -->
+
+
+<!-- ==============feature starts here============== -->
+<section class="feature py-5 mt-5" id="feature">
+<div class="container">
+<div class="section_title text-center mb-5">
+<h1 class="text-capitalize">Our Features</h1>
+</div>
+
+<div class="row container">
+  <div class="col">
+    <div class="icon"><i class="fa fa-cart-arrow-down" style="font-size: 50px;"></i>
+      <h3>Easy Order System</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit id
+accusamus quas maxime
+expedita nostrum atque delectus deleniti ad modi repellat debitis ipsam
+quisquam amet, odit voluptate.</p>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="icon"><i class="fa fa-truck" style="font-size: 50px;"></i>
+      <h3>On Time Fast Delivery</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit id
+accusamus quas maxime
+expedita nostrum atque delectus deleniti ad modi repellat debitis ipsam
+quisquam amet, odit voluptate.</p>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="icon"><i class="fa fa-lock" style="font-size: 50px;"></i>
+      <h3>Secure Payment System</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit id
+accusamus quas maxime
+expedita nostrum atque delectus deleniti ad modi repellat debitis ipsam
+quisquam amet, odit voluptate.</p>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="icon"><i class="fa fa-headphones" style="font-size: 50px;"></i>
+      <h3>24/7 Customer Support</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit id
+accusamus quas maxime
+expedita nostrum atque delectus deleniti ad modi repellat debitis ipsam
+quisquam amet, odit voluptate.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+<!-- ==============feature ends here============== -->
+
+
+<!-- ==============footer starts here============== -->
+<section class="footer_section pt-5 pb-2" id="footer_section">
+<footer>
+<div class="container-fluid">
+  <div class="col-md-3 col-6 pl-5 pl-small-15">
+<div class="footer_title" id="fimg">
+<a href="index.html"><img src="assets/images/trendygo1.png" 
+class="img img-fluid" alt="logo"></a>
+</div><br/>
+<div id="para">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, totam est
+illum ipsum quas ad
+dignissimos magni veritatis natus voluptatem.Dignissimos impedit id
+accusamus quas maxime
+expedita nostrum atque delectus deleniti ad modi.</p><br/><br/>
+
+</div>
+</div>
+<div class="row">
+<div class="col-md-3 col-6" id="fcontent" style="margin-left: 60px;">
+<div class="footer_title pt-3 mb-3">
+<h3>Quick Links</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="about_us.html">About</a></li>
+<li><a href="category.html">Offers & Discounts</a></li>
+<li><a href="javascript:;">Get Coupon</a></li>
+<li><a href="contact_us.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6" id="fcontent">
+<div class="footer_title pt-3 mb-3">
+<h3>New Products</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="category.html">Women</a></li>
+<li><a href="category.html">Men</a></li>
+<li><a href="category.html">Fashion Accessories</a></li>
+<li><a href="category.html">Gifts Cards</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6" id="fcontent">
+<div class="footer_title pt-3 mb-3">
+<h3>Support</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="javascript:;">Frequently Asked Questions</a></li>
+<li><a href="javascript:;">Terms & Conditions</a></li>
+<li><a href="javascript:;">Privacy Policy</a></li>
+<li><a href="javascript:;">Report a Payment Issue</a></li>
+</ul>
+</div>
+</div>
+</div><br/><br/>
+<div class="border-bottom"></div>
+<h6 class="text-center" id="footertext" style="color: #adad85; text-align: center; align-items: center;">KEEP IN TOUCH</h6>
+<div class="icon text-center">
+  
+  <a href="facebook.com"><i class="fa fa-facebook-official" style="font-size:28px; color: blue; background: white; height: 26px; border-radius: 25%; width: 22px;padding: 0; margin: 0; background-size: 0px;"></i></a>
+ <a href="instagram.com"><i class="fa fa-instagram" style="font-size:30px; color:white ; background: #ff2447; height: 27px; border-radius: 30%; width: 24px; padding: 0; margin: 0; background-size: 0px;"></i></a> 
+ <a href="twitter.com"><i class="fa fa-twitter-square" style="font-size:29px; color:white ; background: blue; height: 22px; border-radius: 27%; width: 23px; background-size: 0px;"></i></a> 
+ <a href="youtube.com"><i class="fa fa-youtube-play" style="font-size:28px; color:red ; background:none ; height: 20px; border-radius: 300%; width: 25px; background-size: 0px;"></i></a>
+</div>
+
+<div class="border-top">
+<h6 class="text-center mt-3 w3-text-light-gray">Copyright © TrendyGo  All rights reserved
+</h6>
+</div>
+
+<div class="backtop">
+<a id="button" href="#top" class="btn" role="button">
+<i class="fa fa-chevron-up"></i>
+</a>
+</div>
+
+</div>
+</footer>
+</section>
+<!-- ==============footer ends here============== -->
+<script>
+  //SignUp modal
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+//Login Modal
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
